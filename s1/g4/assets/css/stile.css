@@ -1,0 +1,313 @@
+/* IMPOSTAZIONI GENERALI */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+body{
+max-width: 90%;
+font-family: Poppins, sans-serif;
+background-image: url(/assets/img/sfondo.png);
+background-position: center center;
+text-align: center;
+max-width: 90%;
+margin: auto;
+margin-top: 5%;
+font-size: 19px;
+line-height: 1.5;
+}
+
+
+
+
+
+/* HEADER */
+
+header{
+    max-width: 90%;
+    margin: auto;
+background: linear-gradient(0deg, rgba(14,39,77,1) 2%, rgba(19,145,159,1) 100%, rgba(0,212,255,1) 100%);
+ text-align: center;
+
+    color: white;
+    padding:30px 0;
+    box-shadow:  0px 6px 6px -4px  black;
+}
+
+header p {
+margin: 20px;
+text-transform: uppercase;
+}
+
+header li {
+margin: 7px;
+}
+
+header li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav ul {
+    list-style: none;
+}
+
+
+
+
+/* MAIN */
+
+main{ 
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    box-shadow: -10px 4px 10px lightgray, 10px 4px 10px lightgray;  
+}
+
+#invisibile {
+opacity: 0;
+
+}
+
+
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+article {
+    max-width: 90%;
+    margin: auto;
+    
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+   padding-right: 25px;
+    text-align: left; 
+}
+    
+
+
+   
+   article h1 {
+   font-size: 30px;
+   font-weight: 900;
+   margin-top: 30px;
+    text-align: left
+   }
+
+/* liste*/ 
+
+   article li {
+    list-style: inside;
+     }
+
+article p{ 
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 25;
+}
+
+
+.viola {
+color: darkmagenta;
+
+}
+
+#grigetto {
+color: gray;
+}
+
+article ul, ol {
+margin-left: 50px;
+}
+article li {
+text-indent: -1.5em;
+}
+
+ul + h2 {
+margin-top:  20px; ;
+
+}
+
+.bottone {
+border: 2px solid darkgray;
+border-radius: 10px;
+background-color:#dee1e6;
+
+}
+
+article ol li{
+list-style-position: inside;
+list-style-type: decimal;}
+
+  
+
+/* TABELLE */
+
+table {
+width: 100%;
+margin: auto;
+border-bottom:solid rgba(63, 63, 199, 0.781);
+}
+table caption {
+font-weight: bold;
+font-style: italic;
+}
+
+ table thead {
+    background-color: rgba(63, 63, 199, 0.781);   
+    border: thin white;
+ }
+
+ th {
+    padding: 10px;
+    border: 1px solid white;
+    text-align: center;
+    vertical-align: middle;
+ }
+
+ tbody {
+text-align: center;
+ }
+
+tbody tr td  {
+padding: 20px;
+
+ }
+
+
+ tr:nth-child(even) {
+
+    background-color:#dee1e6;
+ }
+
+table + p {
+margin-top: 30px;
+}
+
+table + p a {
+ color: rgb(55, 172, 226);
+ font-weight: bold;
+
+}
+
+ iframe{
+
+width: 100%;
+margin: auto;
+border-radius: 40px;
+}
+
+
+/* FORM */
+
+section {
+margin-top: 40px;
+background-color: #dee1e6;
+padding: 20px;
+}
+
+section h2 {
+text-transform: uppercase;
+text-align: center;
+font-weight: bold;
+font-size: 30px;
+color: black;
+}
+
+section fieldset input {
+width: 65%;
+height: 30px;
+border:none;
+border-bottom: 2px solid gray;
+border-bottom-style: dotted;
+font-size: 17px;
+}
+
+section fieldset button {
+width: 25%;
+height: 30px;
+background-color:rgba(63, 63, 199, 0.781) ;
+color: white;
+font-weight: bold;
+font-size:17px ;
+padding: 0px;
+border: none;
+}
+
+/* ELEMENTI NELL' ASIDE */
+
+aside {
+max-width: 90%;
+margin: auto;
+padding-bottom: 40px;
+}
+
+
+aside h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+    padding: 30px;
+}
+
+aside div {
+    height: 120px;
+    margin: auto;
+    text-align: left;
+    background-color: #dee1e6;
+    margin-bottom: 20px;
+    padding: 20px;
+    padding-bottom: 0px;
+    border: 2px solid gray;
+}
+
+aside div a {
+    color: rgb(55, 172, 226);
+    font-weight: bold;
+}
+
+.bassodestra {
+text-align: right;
+padding-right: 20px;
+margin-top: 20px;
+font-size: 15px;
+}
+
+main + hr {
+ display: none;
+}
+
+footer {
+box-sizing: border-box;
+width: 90%;
+margin: auto;
+margin-top: 20px;
+margin-bottom: 15px;
+background: linear-gradient(0deg, rgba(14,39,77,1) 2%, rgba(19,145,159,1) 100%, rgba(0,212,255,1) 100%);
+padding-left: 20px;
+padding-right: 20px;
+padding-bottom: 40px;
+font-size: 18px;
+color: white;
+  font-weight: 100;
+}
+
+footer p {
+  padding-top: 20px;
+  
+
+}
+
+footer address {
+    margin-top: 20px;
+}
+
+footer a {
+color: fuchsia;
+
+}
+
+
+
+
+/* FOOTER */

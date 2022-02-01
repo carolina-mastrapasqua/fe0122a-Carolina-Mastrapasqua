@@ -1,0 +1,215 @@
+/* IMPOSTAZIONI GENERALI */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+
+body h1, h2 {
+    font-family:'Raleway', sans-serif;
+}
+
+
+/* HEADER */
+
+
+header{ height: auto;
+    max-width: 500px;
+    text-align: center; 
+    background-color: #04adbf;
+    padding: 40px;
+    line-height: 30px;
+}
+
+h1 { 
+text-transform: uppercase; 
+color: white; 
+padding-top: 5px;
+padding-bottom: 10px;
+}
+
+header span { 
+    color:#04adbf;
+    text-transform: uppercase; 
+    background-color: white; 
+   display: block;
+   width: fit fit-content;
+   
+}
+
+hr {max-width: 500px;
+margin-top: 0;
+border: 2px solid #0051ff;
+
+
+}
+
+main { max-width: 500px;
+    padding: 20px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 11px;
+
+}
+
+header h2 {
+    text-transform:uppercase ;
+text-transform:capitalize ;
+
+}
+
+
+header h2 {display: block; 
+    text-transform: uppercase; 
+    text-align: center; 
+    color: black;
+}
+
+
+/* MAIN */
+/* ELEMENTI NEL MAIN */
+
+main h2 {
+    text-transform: uppercase; 
+    text-align: center;
+     color:  #04adbf;
+     margin-top: 20px;
+     font-size: 15px;
+     padding: 10px;
+     
+
+}
+ 
+
+figure {
+    text-align: center;
+
+}
+
+figure img {
+padding: 5px;
+border: 1px solid #0051ff;
+
+}
+figure figcaption {
+    padding-top: 10px;
+    font-weight: 600;
+}
+
+address a {
+    
+color: red;
+}
+
+address b {
+    font-weight: bold;
+}
+
+
+main p {
+    line-height: 1.5;
+    margin-left: 5px;
+    font-size: 16px;
+}
+p b {
+    font-weight: bold;
+}
+
+blockquote {
+    background-color: #adb5bd;
+    border-radius: 5%;
+    margin: auto;
+    padding: 20px;
+    max-width: 300px;
+}
+
+blockquote p {
+    text-align: center;
+    font-style: italic;
+}
+
+strong {
+    color: #22b8cf;
+}
+
+main hr {
+    border-style: dashed;
+    margin: 20px;
+}
+
+h3 {
+    font-weight: bold;
+    line-height: 2.5;
+    font-size: 15px;
+    margin-left: 2px;
+}
+
+mark {
+    background-color: #0b7285;
+    color: white;
+}
+
+div p a {
+color: red;
+}
+
+h2 div { 
+   font-size: 16px;
+
+}
+
+ul {font-size: 16px;
+    padding-left: 45px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+li {
+    
+    line-height: 1.5;
+}
+
+dl { 
+font-size: 16px;
+
+}
+dd {
+    padding-left: 35px;
+    line-height: 2;
+}
+
+
+
+
+
+/* FOOTER */
+
+footer {max-width: 500px;
+    background-color: rgb(59, 66, 66);
+    color: white;
+    margin-top: 25px;
+    border-top: solid 5px #0b7285;
+    line-height: 2;
+    font-size: 16px;
+}
+
+kbd {
+    color: yellow;
+    font-style: italic;
+}
+
+footer a {
+    color: crimson;
+}
+
+small {
+    color: lightgray;
+}
+
+footer p {
+    text-align: center;
+}
+
+
+
+
+
+/* ELEMENTI NEL MAIN */
+
+/* FOOTER */
