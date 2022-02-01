@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+html {
+    font-size: 62,5%;
+}
+
+body { 
+    text-align: center;
+    font-family: 'Open Sans', sans-serif; 
+    line-height: 1.65;
+    font-size: 1.2rem;
+    color: #393d41;
+}
+
+main { 
+font-size: 1.2rem;
+}
+
+div {
+padding-left: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+}
+
+h1, h2, h3, button {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h3 {
+color: #25a2c3 ;
+line-height: interlinea 1.5;
+}
+
+h2 {
+font: size 1.2em; 
+color: white;
+font-size: 2rem;
+}
+
+header {
+background-color: black;
+padding-top: 40px;
+padding-bottom: 45px;
+}
+
+/*MAIN*/
+
+#blocco1 {
+ background-image: url(/assets/images/banner.jpg);
+ background-position:center;
+ padding-top: 50px;
+ padding-bottom: 30px;
+ background-size:cover;
+}
+
+button {
+font-weight: bold;
+background-color: #f04c2f;
+color: white;
+text-transform: uppercase;
+border: 0;
+padding: 15px 25px;
+border-radius:8%;
+margin-top: 50px;
+}
+
+h1 {
+font-size: 2rem;
+}
+
+h1 span {
+display: block;
+padding-bottom: 10px;
+line-height: 1,5;
+}
+
+.senzabordo {
+margin-top: 5px;
+margin-bottom: 5px;
+border: 0px;
+padding: 30px;
+}
+
+.senzabordo img {
+
+border-radius: 100% ;
+max-width: 270px;
+
+}
+
+#arancione {
+margin: 0px;
+background-color: #f04c2f;
+color: white;
+padding: 55px;
+margin bottom: 50px;
+}
+
+blockquote {
+font-style: italic;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+figure figcaption span {
+display: block;
+font-size: 0.7em;
+}
+
+
+
+.fotointera {
+margin: auto;
+ margin-bottom: 0px;
+ padding-bottom: 0px; 
+}
+
+
+.fotointera img {
+    margin: auto;
+max-width: 300px;
+background-size: co
+
+}
+
+
+.bordo {
+padding: 0px;
+margin: auto;
+width: 300px;
+margin-bottom: 40px;
+border-bottom: 10px solid black;
+border-left: 10px solid black;
+border-right: 10px solid black;
+border-width: thin;
+border-color: #dee1e3;
+margin-top: 40px;
+
+}
+
+.bordo h3 {
+    width: 300px;
+    padding-top: 10px;
+}
+
+.bordo p {
+
+max-width: 250px;
+display: block;
+padding: 20px;
+margin: auto;
+
+
+}
+
+.conbordo {
+margin: auto;
+margin-top: 0;
+margin-bottom: 40px;
+border-bottom: 10px solid black;
+border-left: 10px solid black;
+border-right: 10px solid black;
+border-width: thin;
+border-color: #dee1e3;
+vertical-align: top;
+
+}
+
+footer {
+    font-size: 1rem;
+    margin: 0px;
+    background-color:#25a2c3;
+    color: white;
+    padding: 55px;
+    }
+    
+    
+    a {
+    color: white;
+    }
+    
+    #telefono::before {
+    content: \f87b;
+    }
+    
+    hr {
+    color: white;
+    max-width: 60%;
+    size: 1px;
+    }
+    
+    #copyrigth {
+    size: 0.8em;
+    }
+    
+    #mail {
+        display: block;
+    }
