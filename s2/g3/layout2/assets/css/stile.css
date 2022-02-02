@@ -37,6 +37,10 @@ body {
 * {box-sizing: border-box;}
 hr {display: none;} /* rimuove l'elemento */
 
+
+
+
+
 /* BUTTON FIXED */
 .toTop {
     position: fixed;
@@ -75,6 +79,45 @@ header {
     top: 0;
     z-index: 10;
 }
+
+
+.container {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 35%;
+    column-gap: 10px;
+    row-gap: 3.5%;
+
+
+}
+
+.box1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.box2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    order: -1;
+}
+
+.box3 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    align-self:baseline;
+    margin-top: 200px;
+
+}
+
+
+
+
 @media screen and (min-width:800px) {
     header {
         padding: 1.3em;

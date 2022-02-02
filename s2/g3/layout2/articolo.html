@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="assets/css/stile.css">
     </head>
     <body id="top">
-        <header>
+        <header >
             <div>
                 <img src="assets/img/logo.svg" alt="logo del blog" width="250" height="60">
                 <p>Epicode - Il blog dei developers</p>
@@ -29,8 +29,8 @@
 
         <hr>
 
-        <main>
-            <article class="clearfix">
+        <main class="container">
+            <article class="clearfix" class="box1">
                 <h1>Come creare un template per i post</h1>
                 <p><i class="fas fa-pen-square"></i> di Mario Rossi - <span><i class="fas fa-clock"></i> pubblicato il 25-10-2020</span></p>
     
@@ -95,21 +95,22 @@
 
                 <iframe width="300" height="300" src="https://www.youtube.com/embed/dvOvHXruEDM" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     
-                <section>
-                    <h2>Novità</h2>
-                    <p>Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra newsletter:</p>
-                    
-                    <form method="POST" action="elabora_form.php">
-                        <fieldset>
-                            <input type="email" name="user_email" id="user_email" placeholder="inserisci l'email" required> 
-                            <button type="submit">Iscriviti!</button>
-                        </fieldset>
-                    </form>
-                </section>
-    
             </article>
+
+            <section class="box3">
+                <h2>Novità</h2>
+                <p>Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra newsletter:</p>
+                
+                <form method="POST" action="elabora_form.php">
+                    <fieldset>
+                        <input type="email" name="user_email" id="user_email" placeholder="inserisci l'email" required> 
+                        <button type="submit">Iscriviti!</button>
+                    </fieldset>
+                </form>
+            </section>
+
     
-            <aside>
+            <aside class="box2">
                 <h2>Articoli correlati</h2>
                 <div>
                     <a href="post2.html" title="Passaggi guidati per validare correttamente tutto il codice sviluppato">Validare il codice HTML</a>
