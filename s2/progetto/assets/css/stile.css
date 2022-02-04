@@ -1,0 +1,392 @@
+/* IMPOSTAZIONI GENERALI */
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
+
+html {font-size: 62.5%;}
+
+
+body {
+font-family: 'Fira Sans', sans-serif;
+line-height:1.8;
+font-size: 1.5rem;
+color: #000;
+}
+
+
+
+div {
+    padding-top: 40px;
+
+}
+
+h1 {
+    font-weight: bold;
+  font-size: 2em; 
+  padding-top: 20px;
+
+}
+
+h2 {
+font-size: 1.8em;
+margin-bottom: 20px;
+}
+
+h1, h2, h3 {
+line-height:1.1;
+font-weight: 600;
+}
+
+/* HEADER */
+
+
+h3 {
+font-size: 1.8rem;
+font-weight: 600;
+margin-bottom: 5px;
+}
+
+header div {
+    padding-top: 10px;
+}
+
+header {
+padding-left: 20px;
+padding-right: 20px;
+background-color: white;
+}
+
+main {
+    text-align: center;
+}
+
+
+.background {
+padding: 20px;
+text-align: left;
+background-image: url(../images/banner.jpg);
+background-position: center;
+background-size: cover;
+color: white;
+text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+}
+
+.background p {
+margin-top: 20px;
+margin-bottom: 20px;
+line-height: 1.5;
+text-shadow: 2px 5px solid black;
+}
+
+.button {
+    
+    background-image: linear-gradient(to right, #6cc1e2, #392f7a);
+    size: 1.9rem;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+
+}
+
+.testoicone {
+padding-top: 0;
+padding-left: 10px;
+padding-right: 10px;
+
+}
+
+.noflex {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.iconarossa {
+    color: #e42424;
+}
+
+#blu {
+margin-top: 30px;
+background-color: rgb(26, 26, 88);
+color: white;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
+#blu button {
+
+margin-top: 10px;    
+}
+
+#computer img {
+width: 80%;
+}
+
+.emoticon {
+padding-left: 10px;
+padding-right: 10px;
+}
+
+.emoticon h2 {
+  font-size: 1.3em;
+  margin-bottom: 5px;
+}
+
+.emoticon div {
+ padding-top: 0px;
+ margin-bottom: 20px;
+
+}
+
+
+
+footer {
+background-color: rgb(238, 238,238);
+text-align: left;
+padding-left: 40px;
+padding-bottom: 40px;
+
+}
+
+
+
+footer p, address {
+font-size: 1rem;
+}
+
+.buttonflex {
+    display:flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 5px;
+    padding-left: 0;
+}
+
+footer input {
+    line-height:2.5;
+}
+
+footer address {
+margin-top: 20px;
+}
+
+footer button {
+    border: none;
+}
+
+#iconefooter {
+padding-top: 0px;
+margin-top: 15px;
+margin-bottom: 20px;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width:500px) {
+    header nav ul {
+    height: 0;
+    visibility: hidden;
+}
+
+    #menubutton:checked ~ nav ul {
+        height: 150px;
+        visibility: visible;
+    }
+
+   
+
+    #menubutton {
+    display: none;
+    position: absolute;
+    top: 3vh;
+    right:5vw;
+    }
+
+    #menuicon {
+        position: absolute;
+        top: 2vh;
+        right: 5vh;
+    }
+   
+   
+    ul {
+        list-style-type: none;
+        
+
+    }
+    ul li {
+        background-color: white;
+       text-align: right;
+
+    }
+
+    ul li a {
+        text-decoration: none;
+        color:gray;
+        font-weight: 600;
+    }
+
+}
+
+
+@media screen and (min-width:500px) {
+
+    body {
+        padding: 20px 40px;
+    }
+
+    main {
+        padding: 50px;
+        padding-top: 0;
+
+    }
+    #menubutton {display: none;}
+    #menuicon {display: none;}
+    ul {
+       list-style-type: none; 
+       text-align: right;
+    }
+
+    ul li {
+        display: inline;
+        margin: 2px;
+       
+    }
+
+    ul li a {
+        text-decoration: none;
+        color: gray;
+        font-weight: 600;
+    }
+    header {
+        display: flex;
+        justify-content: space-around;
+    }
+    header button {
+        border: none;
+        width: 100px;
+
+    }
+   
+
+    .background {
+    
+    height: 300px;
+    text-align: left;
+  
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 0px;
+    
+    }
+
+    
+
+    .testoicone {
+        display: flex;
+        column-gap: 5%;
+    }
+
+    .testoicone p {
+        text-align: left;
+
+    }
+
+
+    #blu h2 {
+        text-align: center;
+    }
+    #blu {
+        text-align: center;
+        height: 200px;
+        padding: 80px;
+    }
+   
+    #container {
+        display: flex;
+    }
+
+    .emoticon p,h2 {
+        text-align: left;
+    }
+    
+    #computer {
+    width:100%;
+    }
+
+    footer {
+        height: 200px;
+        padding-right: 40px;
+    
+    }
+
+    .footerflex {
+        display:flex;
+        column-gap: 2%;
+
+    }
+
+    .footerflex div:nth-of-type(1) {
+        padding: 0;
+    }
+
+
+    #iconefooter {
+        margin: 0px;
+
+    }
+
+    .buttonflex {
+        padding: 0;
+        width: 30%;
+        height: 20px;
+    }
+    footer address {
+        margin:0;
+    }
+
+}
+
+@media screen and (min-width:1024px) {
+
+    body {
+        padding: 0;
+    }
+
+    main {
+        padding: 0;
+    }
+
+    .background {
+        padding-top: 10%;
+        padding-left: 20%;
+        padding-right:20%;
+    }
+
+    .noflex h2 {
+        padding-top: 5%;
+    text-align: center;
+    }
+
+    .noflex {
+        padding: 2% 30%;
+    }
+    .testoicone {
+        padding: 5% 15%;
+    }
+
+    #container {
+        justify-content: center;
+    }
+    
+    footer address {
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    #computer {
+        width:25%;
+        margin-bottom: 5%;
+    }
+
+
+}
