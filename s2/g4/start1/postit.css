@@ -1,0 +1,56 @@
+.boxinfo {
+width: 100%;
+height: 100%;
+background-color: rgba(73, 72, 72, 0.904);
+display: flex;
+justify-content:space-evenly;
+flex-wrap: wrap;
+}
+
+.boxinfo div {
+
+    flex-basis: 20%;
+    margin:2%;
+    height: 160px;
+    box-shadow: 1px 1px 2px 2px gray;
+    text-align: center;
+    line-height: 1.7;
+    box-shadow: inset 0 -20px 50px -20px grey;
+
+}
+
+h1 {
+font-size: 25px;
+margin-top: 40px;
+font-weight: bold;
+
+}
+
+p {
+font-size: 20px;
+
+}
+
+.giallo {
+    background-color: rgb(187, 221, 118);
+    transform: rotate(-8deg);
+}
+
+.verde {
+background-color: rgb(97, 197, 94);
+transform: rotate(5deg);
+
+}
+.violet {
+background-color: rgb(171, 131, 199);
+transform: rotate(-10deg)
+}
+
+#hover:hover {
+transform: rotate(0deg);
+}
+
+.boxinfo div:hover {
+transform: rotate(0deg);
+transform:;
+}
