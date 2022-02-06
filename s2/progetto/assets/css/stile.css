@@ -1,6 +1,6 @@
 /* IMPOSTAZIONI GENERALI */
 
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
 
 html {font-size: 62.5%;}
 
@@ -53,6 +53,7 @@ header {
 padding-left: 20px;
 padding-right: 20px;
 background-color: white;
+box-shadow: 0px 3px 6px 4px #d3d3d3;
 }
 
 main {
@@ -84,7 +85,17 @@ text-shadow: 2px 5px solid black;
     color: white;
     font-weight: bold;
     padding: 10px;
+    border: none;
 
+}
+
+.hvr-ripple-out {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
 }
 
 .testoicone {
@@ -150,7 +161,7 @@ padding-bottom: 40px;
 
 
 footer p, address {
-font-size: 1rem;
+font-size: 1.2 rem;
 }
 
 .buttonflex {
@@ -179,14 +190,176 @@ margin-top: 15px;
 margin-bottom: 20px;
 }
 
-/* RESPONSIVE */
+/* PAGINA CONTATTI */ 
 
-@media screen and (max-width:500px) {
-    header nav ul {
-    height: 0;
-    visibility: hidden;
+/* FORM */
+
+
+
+form input, textarea {
+    
+    display:  block;
+    width: 60%;
+    height: 5%;
+    padding: 2%;
+    font-size:  1.2rem; 
+    font-style: italic;
+    margin: auto;
+    margin-top: 4%;
 }
 
+form .button {
+margin-top: 4% ;
+
+}
+
+.contatti {
+    margin-top: 8%;
+    margin-bottom: 10%;
+    text-align: center;
+
+}
+
+.contatti p {
+margin: 4%;
+text-align: center;
+padding:0 10%;
+}
+
+#contatti {
+text-align: center;
+font-size: 4rem;
+margin: 5% 0;
+}
+
+
+/*PAGINA CHI SIAMO*/
+
+.descrizione {
+    margin-top: 10%;
+    padding: 0 10%;
+}
+
+.descrizione h1 {
+font-size: 3.5rem;
+margin: 5% 0;
+
+}
+
+.containerfoto {
+    padding-top: 0%;
+    
+}
+
+.containerfoto img {
+    width: 100%;
+    height: auto;
+    padding-top: 0px;
+}
+
+.fotopc {
+    margin: 5% 4%;
+}
+
+.fotopc p {
+    max-width: 100%;
+    margin-top: 5%;
+}
+  
+/* TABELLA */
+
+table {
+
+    width: 90%;
+    margin: auto;
+    padding: 0 5%;
+    margin-bottom: 10%;
+}
+
+#titolotabella {
+    font-size: 2.5rem;
+    
+}
+
+table tr {
+    
+    text-align: left;
+
+    
+}
+
+table td {
+    padding-left: 3%;
+
+}
+
+.grigio {
+    background-color: rgba(210, 224, 233, 0.781);
+    
+}
+
+.bianco {
+    background-color: rgba(253, 252, 252, 0.705);
+   
+ }
+
+.primoelemento {
+    font-weight: 900;
+    width: 35%;
+}
+
+.secondoelemento {
+    padding-top: 2%;
+    width: 50%;
+    padding-right: 5%;
+
+}
+
+#tabletabletpc {
+    border: 2px solid rgb(224, 240, 245);
+}
+
+#tabletabletpc tr {
+    padding: 0 5%;
+
+}
+
+#tabletabletpc caption {
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+
+#tabletabletpc tr td {
+   
+    text-align: center;
+    vertical-align: middle;
+    padding: 2% 0;
+}
+
+#tabletabletpc tr:nth-child(even) {
+    background-color: rgba(210, 224, 233, 0.781);
+}
+
+#tabletabletpc tr:nth-child(1) {
+    background-color: rgb(132, 164, 190);
+    color: white;
+}
+
+
+
+
+
+
+/* RESPONSIVE */
+@media screen and (max-width:767px) {
+
+    header nav ul {
+        height: 0;
+        visibility: hidden;
+    }
+    
+    
     #menubutton:checked ~ nav ul {
         height: 150px;
         visibility: visible;
@@ -225,17 +398,33 @@ margin-bottom: 20px;
         font-weight: 600;
     }
 
+    .footerflex {
+        padding-top: 0%;
+        padding-right: 5%;
+        font-size: 1.2em;
+    }
+    footer address {
+        padding-right: 5%;
+    
+    }
+
+    #tabletabletpc {
+        display: none;
+    }
+
 }
 
 
-@media screen and (min-width:500px) {
+@media screen and (min-width:768px) {
 
-    body {
-        padding: 20px 40px;
+    header {
+        padding-top: 1%;
     }
 
+
+
     main {
-        padding: 50px;
+        
         padding-top: 0;
 
     }
@@ -279,11 +468,14 @@ margin-bottom: 20px;
     
     }
 
-    
+    .noflex h2, p{
+        text-align: center;
+    }
 
     .testoicone {
         display: flex;
         column-gap: 5%;
+        padding: 0 50px;
     }
 
     .testoicone p {
@@ -299,29 +491,61 @@ margin-bottom: 20px;
         text-align: center;
         height: 200px;
         padding: 80px;
+        font-size: 2.7rem;
     }
    
     #container {
         display: flex;
+        justify-content:center;
+        width: 100%;
+        height: 40vh;
+        padding-top: 0%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+
+    }
+
+    .emoticon {
+        padding: 0;
+        font-size: medium;
     }
 
     .emoticon p,h2 {
         text-align: left;
+        font-size: 2rem;
+    }
+
+    .emoticon div {
+        padding-bottom: 5%;
+
     }
     
     #computer {
-    width:100%;
+        padding-top: 0;
+        margin-bottom: 5%;
+        margin-right: 5%;
+    }
+
+    #computer img {
+        max-width:  80%; ;
     }
 
     footer {
-        height: 200px;
+        height: 35vh;
         padding-right: 40px;
+        
     
     }
 
     .footerflex {
         display:flex;
         column-gap: 2%;
+        height: 70%;
+        column-gap: 5%;
+        align-content: space-around;
+        font-size: medium;
+        text-align: left;
+        padding-top: 5%;
 
     }
 
@@ -329,7 +553,10 @@ margin-bottom: 20px;
         padding: 0;
     }
 
+    .footerflex p {
+        text-align: left;
 
+    }
     #iconefooter {
         margin: 0px;
 
@@ -342,19 +569,74 @@ margin-bottom: 20px;
     }
     footer address {
         margin:0;
+        font-size: medium;
     }
 
+    #wrapper {
+        display: flex;
+        padding: 0%;
+       
+    }
+
+    form {
+        width: 100%;
+        height: 7%;
+
+    }
+
+    .contatti {
+        width: 100%;
+        margin-top: 0%;
+    }
+    .contatti h2 {
+        text-align: center;
+
+    }
+
+    .descrizione {
+        padding: 0 5%;
+        margin-top: 0;
+    }
+
+    .mainchisiamo {
+        margin: 0 3%;
+    }
+
+    .containerfoto {
+        display:flex;
+    }
+    .fotopc {
+        margin-top: 3%;
+        padding-top: 0;
+    }
+
+    #titolotabella {
+        margin-top: 8%;
+    }
+   
+   
+
+    #tablemobile, #titolotabella {
+        display: none;
+    }
+
+
+
+
 }
+
+
 
 @media screen and (min-width:1024px) {
 
     body {
-        padding: 0;
+        padding: 0px;
     }
 
-    main {
-        padding: 0;
+    header {
+        padding: 1% 3%;
     }
+      
 
     .background {
         padding-top: 10%;
@@ -383,9 +665,43 @@ margin-bottom: 20px;
         margin-top: 5%;
     }
 
-    #computer {
-        width:25%;
-        margin-bottom: 5%;
+    
+    #computer img {
+        max-width: 90%;
+        margin-bottom: 10%;
+    }
+
+    .emoticon {
+        padding: 0%;
+        margin-bottom: 0%;
+    }
+
+    .emoticon div {
+        padding-bottom: 10%;
+    }
+
+    footer {
+        padding: 0 15%;
+    }
+
+    footer address {
+        margin-top: 0%;
+    }
+
+    #wrapper {
+        padding: 0 10%;
+    }
+
+    #tablemobile {
+        display: none;
+    }
+
+    .mainchisiamo {
+        margin: 0 10%;
+    }
+
+    #tabletabletpc {
+        width: 75%;
     }
 
 
