@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap');
+
+@import "variabili";
+
+@import "header";
+
+body {
+    font-family: 'Antic Slab', serif;
+
+        #main {
+            padding: $padding-contenitori;
+            margin: $margin-contenitori;
+            background-color: $primary-color;
+                h1, h2 {
+                    text-align: center;
+                }
+        }
+}
+
+/*MIXINS*/
+
+@mixin contenitori {
+    padding: 10px 0;
+    margin: 10px 5px;
+        a {
+            display: inline block;
+            color: black;
+            
+            &:hover{
+            font-weight: bold;
+            }
+        }
+    
+}
+
+@mixin lista {
+    
+
+    ul {list-style-type: none;
+
+    li {
+        display: inline;
+        margin-right: 30px;
+
+        a{
+            text-decoration: none;
+            color: $text-color;
+            font-weight: bold;
+            display: inline-block;
+            &:hover{
+                transform:scale(2);
+                margin: 0 10px;
+            }
+        }
+    }
+}
+}
+
+#content, #promo {
+    @include contenitori; 
+}
+
+
+@media screen and (min-width:768px) {
+    body{ font-size:1.5rem;
+    }
+    
+}
+
+#sidebar {
+    position: fixed;
+    right: 0;
+    bottom: 50vh;
+}
+
+aside ul {
+    list-style-type: none;
+    
+        li{
+    background-color: $secondary-color;
+    margin: 10px 0;
+    padding: $padding-contenitori;
+    border-radius: 15px;
+    color: $text-color;
+        }
+}

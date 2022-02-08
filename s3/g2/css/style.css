@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap");
+/* line 1, ../../../Desktop/EPICODE/esercizi da caricare/s3/g2/sass/_header.scss */
+header {
+  background-color: #491437;
+  border-radius: 10px;
+  padding: 5px 5px;
+}
+
+/* line 6, ../../../Desktop/EPICODE/esercizi da caricare/s3/g2/sass/_header.scss */
+header nav .lista {
+  list-style-type: none;
+}
+
+/* line 9, ../../../Desktop/EPICODE/esercizi da caricare/s3/g2/sass/_header.scss */
+header nav .lista li {
+  display: inline;
+  margin-right: 30px;
+}
+
+/* line 13, ../../../Desktop/EPICODE/esercizi da caricare/s3/g2/sass/_header.scss */
+header nav .lista li a {
+  text-decoration: none;
+  color: #f3e5e5;
+  font-weight: bold;
+  display: inline-block;
+}
+
+/* line 18, ../../../Desktop/EPICODE/esercizi da caricare/s3/g2/sass/_header.scss */
+header nav .lista li a:hover {
+  transform: scale(2);
+  margin: 0 10px;
+}
+
+/* line 7, ../../../Desktop/EPICODE/esercizi da caricare/s3/g2/sass/style.scss */
+body {
+  font-family: 'Antic Slab', serif;
+}
+
+/* line 10, ../../../Desktop/EPICODE/esercizi da caricare/s3/g2/sass/style.scss */
+body #main {
+  padding: 5px 5px;
+  margin: 5px 10px;
+  background-color: #ddcfda;
+}
+
+/* line 14, ../../../Desktop/EPICODE/esercizi da caricare/s3/g2/sass/style.scss */
+body #main h1, body #main h2 {
+  text-align: center;
+}
+
+/*MIXINS*/
+/* line 59, ../../../Desktop/EPICODE/esercizi da caricare/s3/g2/sass/style.scss */
+#content, #promo {
+  padding: 10px 0;
+  margin: 10px 5px;
+}
+
+/* line 25, ../../../Desktop/EPICODE/esercizi da caricare/s3/g2/sass/style.scss */
+#content a, #promo a {
+  display: inline block;
+  color: black;
+}
+
+/* line 29, ../../../Desktop/EPICODE/esercizi da caricare/s3/g2/sass/style.scss */
+#content a:hover, #promo a:hover {
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 65, ../../../Desktop/EPICODE/esercizi da caricare/s3/g2/sass/style.scss */
+  body {
+    font-size: 1.5rem;
+  }
+}
+
+/* line 70, ../../../Desktop/EPICODE/esercizi da caricare/s3/g2/sass/style.scss */
+#sidebar {
+  position: fixed;
+  right: 0;
+  bottom: 50vh;
+}
+
+/* line 76, ../../../Desktop/EPICODE/esercizi da caricare/s3/g2/sass/style.scss */
+aside ul {
+  list-style-type: none;
+}
+
+/* line 79, ../../../Desktop/EPICODE/esercizi da caricare/s3/g2/sass/style.scss */
+aside ul li {
+  background-color: #491437;
+  margin: 10px 0;
+  padding: 5px 5px;
+  border-radius: 15px;
+  color: #f3e5e5;
+}
+
+/*# sourceMappingURL=style.css.map */

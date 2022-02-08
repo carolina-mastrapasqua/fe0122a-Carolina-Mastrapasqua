@@ -1,0 +1,48 @@
+
+@import 'variabili.scss';
+
+
+@import 'bottone.scss';
+
+
+body {
+    text-align: center;
+}
+
+header {
+    width: 100%;
+
+    .logo {
+        background-color: $colore-sfondo;
+        text-align: center;
+        width: $general-width;
+        margin: 0%;
+        border-bottom: 2px solid whitesmoke;
+    }
+    ul {
+        padding: 0%;
+        margin: 0%;
+    }
+    li {
+        display: inline-block;
+        width: $general-width;
+        text-align: center;
+        background-color: $colore-primario;
+
+        &:hover {
+            background-color: $colore-sfondo;
+        }
+    }
+    a {
+        text-decoration: none;
+        color: $colore-secondario;
+    }
+    
+    img {
+        width: $img-width;
+        margin: 20px 30px;
+        height: $img-height;
+    }   
+
+}
+
