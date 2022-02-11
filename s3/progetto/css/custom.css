@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+body {
+  background-color: rgba(235, 243, 245, 0.822);
+  font-family: 'DM Sans', sans-serif; }
+
+.container {
+  padding: 3px;
+  border-radius: 10px; }
+
+main, .text-muted {
+  background-color: #000;
+  color: #0c0b4e; }
+
+main > .container {
+  background-color: #e7e98a; }
+
+#iniziofine {
+  background-color: #0c0b4e;
+  padding: 3px; }
+
+.navbar-brand {
+  color: #e7e98a; }
+
+.navbar .navbar-nav .nav-link {
+  color: #e7e98a; }
+
+.bi {
+  color: #e7e98a; }
+
+.card-body {
+  background-color: #e7e98a; }
+
+.navbar-toggler .navbar-toggler-icon {
+  background-color: #e7e98a; }
+
+footer {
+  background-color: #0c0b4e;
+  color: #e7e98a;
+  font-size: 0.8em; }
+  footer .container address {
+    font-style: italic; }

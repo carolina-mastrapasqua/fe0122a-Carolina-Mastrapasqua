@@ -1,0 +1,8 @@
+@function set-contrast-color($colore){
+    @if(lightness($colore) > 50){
+        @return rgb(12, 11, 78);
+    }@else {
+        @return #e7e98a;
+    }  
+}
+

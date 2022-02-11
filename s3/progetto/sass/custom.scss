@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+
+@import "variabili";
+@import "function";
+@import "mixin";
+
+
+
+body {
+    background-color: rgba(235, 243, 245, 0.822);
+    font-family: 'DM Sans', sans-serif;
+}
+
+
+.container {
+    @include div;
+} 
+
+
+main, .text-muted {
+    background-color: #000;
+    color: set-contrast-color(rgb(241, 225, 225));
+}
+
+main > .container {
+    background-color: $colore-primario;
+}
+
+
+#iniziofine {
+    @include iniziofine;
+}
+
+.navbar-brand {
+    color: $colore-primario;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: $colore-primario;
+}
+
+.bi {
+    color: $colore-primario;
+}
+
+
+.card-body {
+    background-color: $colore-primario;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+    background-color: $colore-primario; 
+}
+
+footer {
+    background-color: $colore-secondario;
+    color: set-contrast-color($colore-secondario);
+    font-size: 0.8em;
+        .container address {
+            font-style: italic;
+        }
+}

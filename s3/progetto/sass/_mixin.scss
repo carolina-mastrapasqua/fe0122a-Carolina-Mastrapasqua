@@ -1,0 +1,12 @@
+@mixin div  {
+   
+    padding: 3px;
+    border-radius: 10px; 
+}
+
+@mixin iniziofine {
+    background-color: $colore-secondario;
+    padding: 3px; 
+    
+}
+    
