@@ -8,8 +8,8 @@ body {
   border-radius: 10px; }
 
 main, .text-muted {
-  background-color: #000;
-  color: #0c0b4e; }
+  background-color: #0c0b4e;
+  color: set-contrast-color #0c0b4e; }
 
 main > .container {
   background-color: #e7e98a; }
@@ -33,9 +33,17 @@ main > .container {
 .navbar-toggler .navbar-toggler-icon {
   background-color: #e7e98a; }
 
+div.carouselcaption h2 {
+  background-color: aqua !important;
+  color: #0c0b4e !important; }
+
 footer {
   background-color: #0c0b4e;
   color: #e7e98a;
   font-size: 0.8em; }
   footer .container address {
     font-style: italic; }
+
+.testocarosello {
+  color: #0c0b4e;
+  background-color: #e7e98a; }

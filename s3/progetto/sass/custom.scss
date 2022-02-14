@@ -19,8 +19,8 @@ body {
 
 
 main, .text-muted {
-    background-color: #000;
-    color: set-contrast-color(rgb(241, 225, 225));
+    background-color: $colore-secondario;
+    color: set-contrast-color ($colore-secondario);
 }
 
 main > .container {
@@ -53,6 +53,11 @@ main > .container {
     background-color: $colore-primario; 
 }
 
+div.carouselcaption h2 {
+    background-color: aqua !important;
+    color: $colore-secondario !important;
+}
+
 footer {
     background-color: $colore-secondario;
     color: set-contrast-color($colore-secondario);
@@ -60,4 +65,9 @@ footer {
         .container address {
             font-style: italic;
         }
+}
+
+.testocarosello {
+    color: $colore-secondario;
+    background-color: set-contrast-color($colore-secondario);
 }
