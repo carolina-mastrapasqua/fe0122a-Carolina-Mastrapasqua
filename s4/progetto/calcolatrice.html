@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semplice Calcolatrice in JS</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+
+    <h1>La mia calcolatrice in JS</h1>
+ 
+    <div class="calculator">
+    
+        <div id="outcome"></div>
+
+         <div class="container">
+            <div id="7" onclick="showButton(this)">7</div>
+            <div id="8" onclick="showButton(this)">8</div>
+            <div id="9" onclick="showButton(this)">9</div>
+            <div id="/" onclick="showButton(this)">/</div>
+        </div>
+
+         <div class="container">
+            <div id="4" onclick="showButton(this)">4</div>
+            <div id="5" onclick="showButton(this)">5</div>
+            <div id="6" onclick="showButton(this)">6</div>
+            <div id="*" onclick="showButton(this)">X</div>
+        </div>
+
+        <div class="container">
+            <div id="1" onclick="showButton(this)">1</div>
+            <div id="2" onclick="showButton(this)">2</div>
+            <div id="3" onclick="showButton(this)">3</div>
+            <div id="-" onclick="showButton(this)">-</div>
+        </div>
+
+        <div class="container">
+            <div id="C" onclick="cleanScreen()">C</div>
+            <div id="0" onclick="showButton(this)">0</div>
+            <div id="." onclick="showButton(this)">.</div>
+            <div id="+" onclick="showButton(this)">+</div>
+        </div>
+
+        <div id="result-button" onclick="total()">=</div>
+
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
