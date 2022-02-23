@@ -1,0 +1,21 @@
+.intestazione {
+    display: flex;
+    height: 100px;
+    justify-content: space-between ;
+    padding: 0 10px;
+}
+
+ul a {
+    display: block;
+}
+
+
+#btn {
+    height: 40px;
+    width: 100px;
+}
+
+
+.nascosta  {
+    display: none;
+}
