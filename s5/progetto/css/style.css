@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+body {
+    font-family: 'Handlee', cursive;
+    background-image: url(../img/todo1.webp);
+    background-repeat: repeat-y;
+    background-size: cover;
+    
+}
+
+#tasks_list_html {
+    list-style-type: none;
+}
+
+
+
+
+
+#navbar {
+background: linear-gradient(0deg, rgba(240,161,109,1) 2%, rgba(230,222,128,1) 96%,
+rgba(229,232,235,1) 96%, rgba(233,176,29,1) 100%, rgba(249,203,151,1) 100%,
+rgba(251,251,251,0.8127626050420168) 100%, rgba(0,212,255,1) 100%);
+border-radius: 10px;
+max-width: 98%;
+margin: auto;
+}
+
+#task_txt, #add_btn {
+    border-radius: 10px;
+
+}
+
+#titolo {
+    justify-content: center;
+    font-size: 2rem;
+    color: rgb(78, 75, 75);
+    letter-spacing: 1px;
+}
+
+#tasks_list_html {
+    list-style-position: inside;
+    list-style-type: decimal;
+}
+li {
+    background-color: white;
+    border-radius: 10px;
+    color: rgb(78, 75, 75);
+    opacity: 0.9;
+    margin: 2px 0;
+    border: 1px solid rgb(219, 157, 23);
+    padding: 0px 10px;
+    cursor: pointer;}
+
+li:hover {
+    font-weight: bold;
+    font-size: large;
+}
