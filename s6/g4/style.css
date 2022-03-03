@@ -1,0 +1,12 @@
+div {
+    width: 0px;
+    height: 20px;
+    background-color: blue;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  
+}
+
+button { 
+    border-radius: 10px;
+}
