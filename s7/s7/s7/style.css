@@ -1,0 +1,66 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(196, 196, 196);
+  align-items: center;
+}
+.contenitore {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+}
+.forms {
+  width: 400px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 20px;
+  padding: 30px;
+  margin: 30px;
+  background-color: white;
+  box-shadow: 20px 25px grey;
+}
+
+input {
+  margin-bottom: 10px;
+  width: 300px;
+  height: 20px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+select {
+  width: 40%;
+  margin-bottom: 10px;
+}
+
+button {
+  height: 30px;
+  width: auto;
+  border: 0px;
+  border-radius: 7px;
+  background-color: black;
+  color: white;
+}
+
+.nascosto {
+  display: none;
+}
+
+/* css utenti.html */
+
+table {
+  margin-bottom: 15px;
+  width: 90vw;
+}
+
+caption {
+  text-align: center;
+}
+
+#contenitoreUtenti {
+  display: flex;
+}

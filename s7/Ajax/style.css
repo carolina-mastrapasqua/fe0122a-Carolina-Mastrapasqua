@@ -1,0 +1,72 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+}
+
+h2{
+    font-size: 15px;
+}
+.contenitore{
+    display: flex;
+    flex-direction: row;
+}
+#aggiungi{
+    width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin: 30px;
+    border: solid 1px black;
+}
+
+#modifica{
+    width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin: 30px;
+    border: solid 1px black;
+}
+  
+input{
+    margin-bottom: 10px;
+    width: auto;
+    height: 20px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+  
+ 
+  
+button{
+    cursor: pointer;
+    margin-bottom: 3px;
+    height: auto;
+    width: 70px;
+    border: 0px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(136, 24, 24);
+    color: white;
+}
+
+th{
+    background-color: rgb(60, 126, 226);
+    text-align: left;
+    font-size: 20px;
+    border: solid black 1px;
+    border-radius: 5px;
+}
+
+td{
+    text-align: center;
+    background-color: white;
+    color: black;
+    width: 500px;
+    height: auto;
+    border: solid black 1px;
+    border-radius: 5px;
+}
+  

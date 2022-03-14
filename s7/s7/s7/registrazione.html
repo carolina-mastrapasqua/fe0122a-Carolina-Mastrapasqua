@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form registrazione</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="contenitore">
+      <form class="forms" action="" name="invio">
+        <label for="name">Nome</label>
+        <input type="text" name="name" id="name" /><span
+          id="inserimento-nome"
+          class="nascosto"
+          >Devi inserire un nome</span
+        ><span id="nome-erroreLettere" class="nascosto"
+          >Il nome può contenere solo lettere</span
+        >
+        <label for="surname">Cognome</label
+        ><span id="inserimento-cognome">Devi inserire un cognome </span
+        ><span id="cognome-erroreLettere"
+          >Il cognome può contenere solo lettere</span
+        >
+        <input type="text" name="surname" id="surname" />
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username" />
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" />
+        <label for="check-email">Conferma la tua email</label>
+        <input type="email" name="check-email" id="check-email" />
+        <label for="password">Inserisci una password</label>
+        <input type="password" name="password" id="password" />
+        <label for="check-password">Verifica la password</label>
+        <input type="password" name="check-password" id="check-password" />
+        <label for="city">Scegli la tua città</label>
+        <select name="city" id="city">
+          <option value="">-</option>
+          <option value="Milano">Milano</option>
+          <option value="Roma">Roma</option>
+          <option value="Napoli">Napoli</option>
+          <option value="Palermo">Palermo</option>
+        </select>
+        <label for="address">Inserisci il tuo indirizzo</label>
+        <input type="text" id="address" />
+
+        <button type="submit" id="submit">Registrati</button>
+        <a href="login.html"><button>Login</button></a>
+      </form>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
