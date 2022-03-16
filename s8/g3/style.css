@@ -1,0 +1,26 @@
+div {
+    height: 20px;
+    width: 50px;
+    border: 2px solid black;
+    margin-left: 10%;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: rgb(190, 228, 228);
+    text-align: center;
+}
+
+input {
+    border-radius: 10px;
+    border: 2px solid black;
+    line-height: 1.5;
+    background-color: rgb(190, 228, 228);
+}
+
+button {
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-left: 11%;
+    margin-top: 5px;
+    background-color: rgb(190, 228, 228);
+    color: black;
+}
